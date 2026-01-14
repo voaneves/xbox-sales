@@ -81,13 +81,10 @@ The project uses the following technologies:
 
 ## Project Structure
 
-- `src/`
-  - `CriarDashboardXbox_V9.bas` (The main source code)
-- `data/`
-  - `Bases.csv` (Sample dataset for testing)
+- `xbox-sales.xlsm` (The main source code and data)
 - `img/`
-  - `logo.png`
-  - `dashboard_screenshot.jpg`
+  - `logo.svg`
+  - `screenshot.png`
 - `LICENSE`
 - `README.md`
 

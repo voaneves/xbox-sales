@@ -11,21 +11,21 @@
 </div>
 <br />
 <div align="center">
-  <a href="https://github.com/voaneves/xbox_analytics_dashboard">
+  <a href="https://github.com/voaneves/xbox-sales">
     <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">xbox_analytics_dashboard</h3>
+  <h3 align="center">xbox-sales</h3>
 
   <p align="center">
     A robust VBA automated dashboard generator inspired by Xbox Series X UI.
     <br />
-    <a href="https://github.com/voaneves/xbox_analytics_dashboard"><strong>Explore the documentation »</strong></a>
+    <a href="https://github.com/voaneves/xbox-sales"><strong>Explore the documentation »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/voaneves/xbox_analytics_dashboard/issues">Report a Bug</a>
+    <a href="https://github.com/voaneves/xbox-sales/issues">Report a Bug</a>
     ·
-    <a href="https://github.com/voaneves/xbox_analytics_dashboard/issues">Request a Feature</a>
+    <a href="https://github.com/voaneves/xbox-sales/issues">Request a Feature</a>
   </p>
 </div>
 
@@ -52,7 +52,7 @@
 ## About the project
 
 <p align="center">
-  <a href="https://voaneves.com/xbox_analytics_dashboard">
+  <a href="https://voaneves.com/xbox-sales">
     <img alt="Dashboard Screenshot" src="img/dashboard_screenshot.jpg" />
   </a>
 </p>
@@ -186,15 +186,15 @@ This project is licensed under the [MIT License](/LICENSE).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/voaneves/xbox_analytics_dashboard.svg?style=for-the-badge
-[contributors-url]: https://github.com/voaneves/xbox_analytics_dashboard/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/voaneves/xbox_analytics_dashboard.svg?style=for-the-badge
-[forks-url]: https://github.com/voaneves/xbox_analytics_dashboard/network/members
-[stars-shield]: https://img.shields.io/github/stars/voaneves/xbox_analytics_dashboard.svg?style=for-the-badge
-[stars-url]: https://github.com/voaneves/xbox_analytics_dashboard/stargazers
-[issues-shield]: https://img.shields.io/github/issues/voaneves/xbox_analytics_dashboard.svg?style=for-the-badge
-[issues-url]: https://github.com/voaneves/xbox_analytics_dashboard/issues
-[license-shield]: https://img.shields.io/github/license/voaneves/xbox_analytics_dashboard.svg?style=for-the-badge
-[license-url]: https://github.com/voaneves/xbox_analytics_dashboard/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/voaneves/xbox-sales.svg?style=for-the-badge
+[contributors-url]: https://github.com/voaneves/xbox-sales/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/voaneves/xbox-sales.svg?style=for-the-badge
+[forks-url]: https://github.com/voaneves/xbox-sales/network/members
+[stars-shield]: https://img.shields.io/github/stars/voaneves/xbox-sales.svg?style=for-the-badge
+[stars-url]: https://github.com/voaneves/xbox-sales/stargazers
+[issues-shield]: https://img.shields.io/github/issues/voaneves/xbox-sales.svg?style=for-the-badge
+[issues-url]: https://github.com/voaneves/xbox-sales/issues
+[license-shield]: https://img.shields.io/github/license/voaneves/xbox-sales.svg?style=for-the-badge
+[license-url]: https://github.com/voaneves/xbox-sales/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/voaneves

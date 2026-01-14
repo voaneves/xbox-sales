@@ -1,0 +1,39 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="xboxGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(60 60) rotate(90) scale(45)">
+      <stop stop-color="#107C10" />
+      <stop offset="1" stop-color="#0E5E0E" />
+    </radialGradient>
+    
+    <filter id="shadow" x="-4" y="0" width="408" height="128" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="2" y="2" width="396" height="116" rx="58" fill="white" />
+    <rect x="2" y="2" width="396" height="116" rx="58" stroke="#107C10" stroke-width="2" stroke-opacity="0.5"/>
+  </g>
+
+  <circle cx="70" cy="60" r="42" fill="url(#xboxGradient)" />
+  
+  <path d="M70 60L40 30C45 25 55 20 70 20C85 20 95 25 100 30L70 60Z" fill="white"/>
+  <path d="M70 60L100 30C105 35 110 45 110 60C110 75 105 85 100 90L70 60Z" fill="white"/>
+  <path d="M70 60L100 90C95 95 85 100 70 100C55 100 45 95 40 90L70 60Z" fill="white"/>
+  <path d="M70 60L40 90C35 85 30 75 30 60C30 45 35 35 40 30L70 60Z" fill="white"/>
+  
+  <circle cx="70" cy="60" r="6" fill="#107C10"/> 
+  <circle cx="70" cy="60" r="4" fill="url(#xboxGradient)"/>
+
+  <text x="130" y="50" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="18" fill="#555555" letter-spacing="2">
+    XBOX
+  </text>
+  
+  <text x="128" y="85" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="42" fill="#107C10" letter-spacing="-1">
+    SALES
+  </text>
+  
+  <rect x="270" y="55" width="80" height="10" rx="5" fill="#107C10" fill-opacity="0.1"/>
+  <circle cx="370" cy="60" r="5" fill="#107C10" />
+
+</svg>

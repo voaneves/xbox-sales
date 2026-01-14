@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/voaneves/xbox-sales">
-    <img src="img/logo.svg" alt="Logo" width="80">
+    <img src="img/logo.svg" alt="Logo" width="300">
   </a>
 
   <h3 align="center">xbox-sales</h3>

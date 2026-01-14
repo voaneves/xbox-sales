@@ -53,7 +53,7 @@
 
 <p align="center">
   <a href="https://voaneves.com/xbox-sales">
-    <img alt="Dashboard Screenshot" src="img/dashboard_screenshot.jpg" />
+    <img alt="Dashboard Screenshot" src="img/screenshot.png" />
   </a>
 </p>
 

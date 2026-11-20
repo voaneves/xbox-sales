@@ -9,7 +9,7 @@
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4ead4">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121110">
 <link rel="canonical" href="https://voaneves.github.io/xbox-sales/">
-<link rel="icon" href="logo.svg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20role%3D%22img%22%20aria-label%3D%22Xbox%20Sales%20Dashboard%20logo%22%3E%20%20%3Cpath%20fill%3D%22%230a0a0a%22%20d%3D%22M256%208a248%20248%200%200%200%200%20496Z%22%2F%3E%20%20%3Cpath%20fill%3D%22%23f4ead4%22%20d%3D%22M256%208a248%20248%200%200%201%200%20496Z%22%2F%3E%20%20%3Ccircle%20cx%3D%22256%22%20cy%3D%22256%22%20r%3D%22248%22%20fill%3D%22none%22%20stroke%3D%22%230a0a0a%22%20stroke-width%3D%2216%22%2F%3E%20%20%3Cdefs%3E%20%20%20%20%3CclipPath%20id%3D%22vn-l%22%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22256%22%20height%3D%22512%22%2F%3E%3C%2FclipPath%3E%20%20%20%20%3CclipPath%20id%3D%22vn-r%22%3E%3Crect%20x%3D%22256%22%20y%3D%220%22%20width%3D%22256%22%20height%3D%22512%22%2F%3E%3C%2FclipPath%3E%20%20%3C%2Fdefs%3E%20%20%3Cg%20clip-path%3D%22url%28%23vn-l%29%22%3E%20%20%20%20%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23f4ead4%22%20stroke-width%3D%2230%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M151%20151h210a30%2030%200%200%201%2030%2030v150a30%2030%200%200%201%20-30%2030h-210a30%2030%200%200%201%20-30%20-30v-150a30%2030%200%200%201%2030%20-30Z%20M286%20151V361%20M171%20321V261M226%20321V221%20M326%20316H346%22%2F%3E%20%20%3C%2Fg%3E%20%20%3Cg%20clip-path%3D%22url%28%23vn-r%29%22%3E%20%20%20%20%3Cpath%20fill%3D%22none%22%20stroke%3D%22%230a0a0a%22%20stroke-width%3D%2230%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M151%20151h210a30%2030%200%200%201%2030%2030v150a30%2030%200%200%201%20-30%2030h-210a30%2030%200%200%201%20-30%20-30v-150a30%2030%200%200%201%2030%20-30Z%20M286%20151V361%20M171%20321V261M226%20321V221%20M326%20316H346%22%2F%3E%20%20%3C%2Fg%3E%20%20%3Ccircle%20cx%3D%22336%22%20cy%3D%22226%22%20r%3D%2224%22%20fill%3D%22%23d70000%22%2F%3E%3C%2Fsvg%3E">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Xbox Sales Dashboard - Excel VBA macro that builds a one-page sales dashboard from raw data with one click.">
 <meta property="og:description" content="VBA macro for Microsoft Excel that generates a one-page sales dashboard with slicers, KPI cards and charts in dark mode.">
@@ -106,7 +106,22 @@ footer p{margin:0}
 <main id="main">
   <div class="wrap">
     <section class="hero" aria-labelledby="name">
-      <img class="logo-img" src="logo.svg" alt="" width="320" height="96">
+      <svg class="logo" viewBox="0 0 512 512" width="112" height="112" aria-hidden="true" focusable="false">
+  <path fill="var(--logo-ink)" d="M256 8a248 248 0 0 0 0 496Z"/>
+  <path fill="var(--logo-paper)" d="M256 8a248 248 0 0 1 0 496Z"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="var(--logo-ring)" stroke-width="16"/>
+  <defs>
+    <clipPath id="vn-hero-l"><rect x="0" y="0" width="256" height="512"/></clipPath>
+    <clipPath id="vn-hero-r"><rect x="256" y="0" width="256" height="512"/></clipPath>
+  </defs>
+  <g clip-path="url(#vn-hero-l)">
+    <path fill="none" stroke="var(--logo-paper)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" d="M151 151h210a30 30 0 0 1 30 30v150a30 30 0 0 1 -30 30h-210a30 30 0 0 1 -30 -30v-150a30 30 0 0 1 30 -30Z M286 151V361 M171 321V261M226 321V221 M326 316H346"/>
+  </g>
+  <g clip-path="url(#vn-hero-r)">
+    <path fill="none" stroke="var(--logo-ink)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" d="M151 151h210a30 30 0 0 1 30 30v150a30 30 0 0 1 -30 30h-210a30 30 0 0 1 -30 -30v-150a30 30 0 0 1 30 -30Z M286 151V361 M171 321V261M226 321V221 M326 316H346"/>
+  </g>
+  <circle cx="336" cy="226" r="24" fill="var(--logo-signal)"/>
+      </svg>
       <h1 id="name">Xbox Sales Dashboard</h1>
       <p class="tagline">Excel VBA macro that builds a one-page sales dashboard from raw data with one click.</p>
       <p class="lead">VBA macro for Microsoft Excel that generates a one-page sales dashboard with slicers, KPI cards and charts in dark mode.</p>

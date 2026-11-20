@@ -7,6 +7,7 @@
   "tagline": "Excel VBA macro that builds a one-page sales dashboard from raw data with one click.",
   "description": "VBA macro for Microsoft Excel that generates a one-page sales dashboard with slicers, KPI cards and charts in dark mode.",
   "logo": {
+    "glyph": "dashboard",
     "existing": "img/logo.svg",
     "width": 320,
     "height": 96

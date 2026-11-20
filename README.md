@@ -2,7 +2,11 @@
 
 <div align="center">
 
-<img alt="Xbox Sales logo: a green Xbox-style sphere beside the words XBOX SALES" src="https://raw.githubusercontent.com/voaneves/xbox-sales/main/img/logo.svg" width="280" height="84" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/xbox-sales/main/assets/logo/logo-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voaneves/xbox-sales/main/assets/logo/logo-light.svg" />
+  <img alt="Xbox Sales Dashboard logo: a dashboard of chart panels, with a red dot for the KPI" src="https://raw.githubusercontent.com/voaneves/xbox-sales/main/assets/logo/logo-light.svg" width="112" height="112" />
+</picture>
 
 <h1>Xbox Sales Dashboard</h1>
 
